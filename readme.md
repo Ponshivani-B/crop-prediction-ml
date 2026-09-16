@@ -1,8 +1,8 @@
-# 🌱 AI-Based Crop Recommendation System
+#  AI-Based Crop Recommendation System
 
 An AI-powered web application that recommends the most suitable crop based on soil and environmental conditions.
 
-## 📌 Project Overview
+##  Project Overview
 
 The system uses a Machine Learning model to recommend a suitable crop based on:
 
@@ -16,19 +16,17 @@ The system uses a Machine Learning model to recommend a suitable crop based on:
 
 The application is built using Flask and a Random Forest Classification model.
 
-## 🚀 Features
+##  Features
 
-- 🌱 AI-based crop recommendation
-- 🌾 Supports 22 crop categories
-- 🖼️ Crop-specific images
-- 📊 Prediction confidence
-- 🌐 Multilingual output
-- 🇮🇳 Hindi language support
-- 🟢 Kannada language support
-- 🖨️ Printable crop recommendation report
-- 📱 Responsive web interface
+-  AI-based crop recommendation
+-  Supports 22 crop categories
+-  Crop-specific images
+-  Prediction confidence
+-  Multilingual output (Hindi, English, Kannada)
+-  Printable crop recommendation report
+-  Responsive web interface
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 ### Algorithm
 
