@@ -61,7 +61,7 @@
             </div>
 
 
-            <form action="/predict" method="POST">
+            <form action="/predict" method="POST" onsubmit="return validateInputs()">
 
 
                 <!-- Language Selection -->
@@ -267,6 +267,64 @@
 
     <!-- Language Translation -->
     <script>
+    
+       function validateInputs() {
+
+        const fields = [
+            {
+                id: "nitrogen",
+                name: "Nitrogen"
+            },
+            {
+                id: "phosphorus",
+                name: "Phosphorus"
+            },
+            {
+                id: "potassium",
+                name: "Potassium"
+            },
+            {
+                id: "temperature",
+                name: "Temperature"
+            },
+            {
+                id: "humidity",
+                name: "Humidity"
+            },
+            {
+                id: "ph",
+                name: "Soil pH"
+            },
+            {
+                id: "rainfall",
+                name: "Rainfall"
+            }
+        ];
+
+        for (const field of fields) {
+
+            const input =
+                document.getElementById(field.id);
+
+            const value =
+                Number(input.value);
+
+            if (input.value.trim() === "" || value <= 0) {
+
+                alert(
+                    field.name +
+                    " must be greater than 0."
+                );
+
+                input.focus();
+
+                return false;
+            }
+        }
+
+        return true;
+    }
+
 
         const translations = {
 

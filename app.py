@@ -66,20 +66,48 @@ def home():
 @app.route("/predict", methods=["POST"])
 def predict():
 
-    # Get selected language
     language = request.form.get("language", "english")
 
-    # Get input values
-    nitrogen = float(request.form["nitrogen"])
-    phosphorus = float(request.form["phosphorus"])
-    potassium = float(request.form["potassium"])
-    temperature = float(request.form["temperature"])
-    humidity = float(request.form["humidity"])
-    ph = float(request.form["ph"])
-    rainfall = float(request.form["rainfall"])
+    try:
 
+        nitrogen = float(request.form["nitrogen"])
+        phosphorus = float(request.form["phosphorus"])
+        potassium = float(request.form["potassium"])
+        temperature = float(request.form["temperature"])
+        humidity = float(request.form["humidity"])
+        ph = float(request.form["ph"])
+        rainfall = float(request.form["rainfall"])
 
-    # Prepare input for ML model
+    except (ValueError, TypeError, KeyError):
+
+        return """
+        <script>
+            alert("Please enter valid numeric values.");
+            window.history.back();
+        </script>
+        """
+
+    values = {
+        "Nitrogen": nitrogen,
+        "Phosphorus": phosphorus,
+        "Potassium": potassium,
+        "Temperature": temperature,
+        "Humidity": humidity,
+        "Soil pH": ph,
+        "Rainfall": rainfall
+    }
+
+    for field_name, value in values.items():
+
+        if value <= 0:
+
+            return f"""
+            <script>
+                alert("{field_name} must be greater than 0.");
+                window.history.back();
+            </script>
+            """
+
     input_data = [[
         nitrogen,
         phosphorus,
@@ -90,23 +118,14 @@ def predict():
         rainfall
     ]]
 
-
-    # Predict crop
     prediction = model.predict(input_data)[0]
 
-    # Convert crop name to lowercase
     crop = prediction.lower()
 
-
-    # Get crop image
     image = crop_images.get(crop)
 
-
-    # Get crop information
     info = crop_info.get(crop, {})
 
-
-    # Render result page
     return render_template(
         "result.html",
         crop=prediction,
