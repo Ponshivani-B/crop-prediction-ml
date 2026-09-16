@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crop Prediction Result</title>
+
+    <link rel="stylesheet"
+          href="static/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo" data-text="logo">
+            🌱 CropPredict
+        </div>
+
+        <div class="nav-text" data-text="navText">
+            AI-Based Crop Recommendation
+        </div>
+
+    </nav>
+
+
+    <main class="main-container">
+
+        <section class="prediction-card">
+
+            <div class="card-header">
+
+                <h1 data-text="resultTitle">
+                    🌱 Crop Prediction Result
+                </h1>
+
+                <br>
+
+                <h2 data-text="recommendedCrop">
+                    Recommended Crop
+                </h2>
+
+            </div>
+
+
+            <!-- Crop Image -->
+
+            <div class="crop-image-container">
+
+                <img src="{{ url_for('static', filename='images/' + image) }}"
+                     alt="{{ crop }}"
+                     class="crop-image">
+
+            </div>
+
+
+            <!-- Crop Name -->
+
+            <h1 class="output" id="cropName">
+                {{ info['english']['name'] }}
+            </h1>
+
+
+            <br>
+            <br>
+
+
+            <!-- Language Selection -->
+
+            <div class="language-section">
+
+                <label for="languageSelect" data-text="languageLabel">
+                    Select Your Preferred Language
+                </label>
+
+                <select id="languageSelect">
+
+                    <option value="english">
+                        English
+                    </option>
+
+                    <option value="hindi">
+                        हिंदी (Hindi)
+                    </option>
+
+                    <option value="kannada">
+                        ಕನ್ನಡ (Kannada)
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <!-- Crop Information -->
+
+            <div class="crop-info">
+
+                <h2 data-text="aboutCrop">
+                    About the Crop
+                </h2>
+
+                <br>
+
+                <p id="description">
+                    {{ info['english']['description'] }}
+                </p>
+
+                <br>
+
+
+                <h3 data-text="suitableSoil">
+                    Suitable Soil
+                </h3>
+
+                <p id="soil">
+                    {{ info['english']['soil'] }}
+                </p>
+
+                <br>
+
+
+                <h3 data-text="suitableTemperature">
+                    Suitable Temperature
+                </h3>
+
+                <p id="temperature">
+                    {{ info['english']['temperature'] }}
+                </p>
+
+                <br>
+
+
+                <h3 data-text="suitableRainfall">
+                    Suitable Rainfall
+                </h3>
+
+                <p id="rainfall">
+                    {{ info['english']['rainfall'] }}
+                </p>
+
+                <br>
+
+
+                <h3 data-text="benefits">
+                    Benefits
+                </h3>
+
+                <p id="benefits">
+                    {{ info['english']['benefits'] }}
+                </p>
+
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+
+
+            <!-- Buttons -->
+
+            <div class="action-buttons">
+
+                <a href="/">
+                    <button class="result-button" data-text="newPrediction">
+                        🔄 New Prediction
+                    </button>
+                </a>
+
+                <button class="result-button"
+                        onclick="window.print()"
+                        data-text="printReport">
+                    🖨 Print Report
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p data-text="footer">
+            CropPredict • Machine Learning Based Crop Recommendation
+        </p>
+
+    </footer>
+
+
+    <!-- Crop Information from Flask -->
+
+    <script id="crop-data" type="application/json">
+        {{ info | tojson }}
+    </script>
+
+
+    <!-- Language Translation -->
+
+    <script>
+
+        const cropInfo = JSON.parse(
+            document.getElementById("crop-data").textContent
+        );
+
+
+        const translations = {
+
+            english: {
+
+                logo: "🌱 CropPredict",
+
+                navText: "AI-Based Crop Recommendation",
+
+                resultTitle: "🌱 Crop Prediction Result",
+
+                recommendedCrop: "Recommended Crop",
+
+                languageLabel: "Select Your Preferred Language",
+
+                aboutCrop: "About the Crop",
+
+                suitableSoil: "Suitable Soil",
+
+                suitableTemperature: "Suitable Temperature",
+
+                suitableRainfall: "Suitable Rainfall",
+
+                benefits: "Benefits",
+
+                newPrediction: "🔄 New Prediction",
+
+                printReport: "🖨 Print Report",
+
+                footer:
+                    "CropPredict • Machine Learning Based Crop Recommendation"
+
+            },
+
+
+            hindi: {
+
+                logo: "🌱 क्रॉपप्रेडिक्ट",
+
+                navText: "AI आधारित फसल अनुशंसा",
+
+                resultTitle: "🌱 फसल भविष्यवाणी परिणाम",
+
+                recommendedCrop: "अनुशंसित फसल",
+
+                languageLabel: "अपनी पसंदीदा भाषा चुनें",
+
+                aboutCrop: "फसल के बारे में",
+
+                suitableSoil: "उपयुक्त मिट्टी",
+
+                suitableTemperature: "उपयुक्त तापमान",
+
+                suitableRainfall: "उपयुक्त वर्षा",
+
+                benefits: "लाभ",
+
+                newPrediction: "🔄 नई भविष्यवाणी",
+
+                printReport: "🖨 रिपोर्ट प्रिंट करें",
+
+                footer:
+                    "CropPredict • मशीन लर्निंग आधारित फसल अनुशंसा"
+
+            },
+
+
+            kannada: {
+
+                logo: "🌱 ಕ್ರಾಪ್‌ಪ್ರಿಡಿಕ್ಟ್",
+
+                navText: "AI ಆಧಾರಿತ ಬೆಳೆ ಶಿಫಾರಸು",
+
+                resultTitle: "🌱 ಬೆಳೆ ಊಹೆಯ ಫಲಿತಾಂಶ",
+
+                recommendedCrop: "ಶಿಫಾರಸು ಮಾಡಲಾದ ಬೆಳೆ",
+
+                languageLabel:
+                    "ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+
+                aboutCrop: "ಬೆಳೆಯ ಬಗ್ಗೆ",
+
+                suitableSoil: "ಸೂಕ್ತವಾದ ಮಣ್ಣು",
+
+                suitableTemperature: "ಸೂಕ್ತವಾದ ತಾಪಮಾನ",
+
+                suitableRainfall: "ಸೂಕ್ತವಾದ ಮಳೆ",
+
+                benefits: "ಪ್ರಯೋಜನಗಳು",
+
+                newPrediction: "🔄 ಹೊಸ ಭವಿಷ್ಯವಾಣಿ",
+
+                printReport: "🖨 ವರದಿಯನ್ನು ಮುದ್ರಿಸಿ",
+
+                footer:
+                    "CropPredict • ಯಂತ್ರ ಕಲಿಕೆ ಆಧಾರಿತ ಬೆಳೆ ಶಿಫಾರಸು"
+
+            }
+
+        };
+
+
+        function changeLanguage() {
+
+            const lang =
+                document.getElementById("languageSelect").value;
+
+            const text = translations[lang];
+
+            const data = cropInfo[lang];
+
+
+            /* Change general page text */
+
+            document.querySelectorAll("[data-text]").forEach(element => {
+
+                const key =
+                    element.getAttribute("data-text");
+
+                if (text[key]) {
+
+                    element.innerHTML = text[key];
+
+                }
+
+            });
+
+
+            /* Change crop information */
+
+            if (data) {
+
+                document.getElementById("cropName").textContent =
+                    data.name;
+
+                document.getElementById("description").textContent =
+                    data.description;
+
+                document.getElementById("soil").textContent =
+                    data.soil;
+
+                document.getElementById("temperature").textContent =
+                    data.temperature;
+
+                document.getElementById("rainfall").textContent =
+                    data.rainfall;
+
+                document.getElementById("benefits").textContent =
+                    data.benefits;
+
+            }
+
+        }
+
+
+        /* 
+           Get the language selected on the HOME PAGE.
+           Flask sends it to this page as the 'language' variable.
+        */
+
+        const selectedLanguage =
+            "{{ language }}";
+
+
+        document.getElementById("languageSelect").value =
+            selectedLanguage || "english";
+
+
+        /*
+           Change the result page immediately
+           to the selected home-page language.
+        */
+
+        changeLanguage();
+
+
+        /*
+           Allow the user to change language
+           again on the result page.
+        */
+
+        document
+            .getElementById("languageSelect")
+            .addEventListener("change", changeLanguage);
+
+    </script>
+
+</body>
+
+</html>
+

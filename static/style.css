@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7f2;
+    background-color: #ccfc8d;
+    color: #263326;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 70px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid #e2e6df;
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.nav-text {
+    font-size: 14px;
+    color: #687268;
+}
+
+
+/* Main */
+
+.main-container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 55px 0;
+    opacity: 1;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.hero h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+
+.hero p {
+    color: #687268;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Card */
+
+.prediction-card {
+    background: white;
+    border: 1px solid #e1e5de;
+    border-radius: 14px;
+    padding: 35px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.card-header {
+    margin-bottom: 30px;
+}
+
+
+.card-header h2 {
+    font-size: 22px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+
+.card-header p {
+    color: #737b73;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* Input rows */
+
+.input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    margin-bottom: 22px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.full-width {
+    margin-bottom: 25px;
+}
+
+
+.input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+.input-group input {
+    height: 48px;
+    border: 1px solid #d5dbd3;
+    border-radius: 8px;
+    padding: 0 14px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.input-group input:focus {
+    border-color: #5d765c;
+    box-shadow: 0 0 0 3px rgba(93, 118, 92, 0.1);
+}
+
+
+.input-group input::placeholder {
+    color: #a2a8a2;
+}
+
+
+/* Predict button */
+
+.predict-button {
+    width: 827px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #2d4210;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.predict-button:hover {
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    background: #4d6b24;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+
+/*Result.htm Buttons*/
+
+.result-button{
+    gap: 5px;
+    height: 50px;
+    width: 400px;
+    background: #2d4210;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.result-button:hover{
+    gap: 5px;
+    height: 55px;
+    background: #4d6b24;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #7c847b;
+    font-size: 13px;
+}
+
+
+/* Crop Image Section */
+.crop-image-container {
+    width: 600px;
+    height: 350px;
+    margin: 25px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Crop Image */
+.crop-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .crop-image:hover{
+
+    height: 450px;
+    width: 550px;
+
+} */
+
+.output{
+    text-align: center;
+}
+
+/*Drop Box*/
+.languageSelect{
+    padding: 10%;
+    height: 100px;
+    width: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.languageSelect1{
+    padding: 10%;
+    height: 100px;
+    width: 300px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.languageSelect1:hover{
+    background-color: #a2a8a2;
+}
+
+.languageSelect:hover{
+    background-color: #a2a8a2;
+}
+
+/* Responsive */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .prediction-card {
+        padding: 25px;
+    }
+
+    .input-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+
+@media print {
+    .navbar,
+    .action-buttons,
+    .language-section,
+    footer {
+        display: none;
+    }
+
+    .report {
+        width: 100%;
+        box-shadow: none;
+    }
+}

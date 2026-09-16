@@ -1,0 +1,595 @@
+{
+  "rice": {
+    "english": {
+      "name": "Rice",
+      "description": "Rice is a major cereal crop that grows well in warm and humid conditions and requires adequate water.",
+      "soil": "Clayey, loamy and fertile soils with good water-holding capacity.",
+      "temperature": "20–35°C",
+      "rainfall": "150–300 mm",
+      "benefits": "Rice is a major food grain and an important source of carbohydrates."
+    },
+    "hindi": {
+      "name": "चावल",
+      "description": "चावल एक प्रमुख अनाज की फसल है जो गर्म और आर्द्र परिस्थितियों में अच्छी तरह उगती है तथा पर्याप्त पानी की आवश्यकता होती है।",
+      "soil": "अच्छी जल धारण क्षमता वाली चिकनी, दोमट और उपजाऊ मिट्टी।",
+      "temperature": "20–35°C",
+      "rainfall": "150–300 मिमी",
+      "benefits": "चावल एक प्रमुख खाद्यान्न है और कार्बोहाइड्रेट का महत्वपूर्ण स्रोत है।"
+    },
+    "kannada": {
+      "name": "ಅಕ್ಕಿ",
+      "description": "ಅಕ್ಕಿ ಪ್ರಮುಖ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ಮತ್ತು ತೇವಾಂಶಯುಕ್ತ ವಾತಾವರಣದಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹಿಡಿದಿಡುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಜೇಡಿ, ಗೋಡು ಮತ್ತು ಫಲವತ್ತಾದ ಮಣ್ಣು.",
+      "temperature": "20–35°C",
+      "rainfall": "150–300 ಮಿಮೀ",
+      "benefits": "ಅಕ್ಕಿ ಪ್ರಮುಖ ಆಹಾರ ಧಾನ್ಯವಾಗಿದ್ದು, ಕಾರ್ಬೋಹೈಡ್ರೇಟ್‌ನ ಪ್ರಮುಖ ಮೂಲವಾಗಿದೆ."
+    }
+  },
+
+  "maize": {
+    "english": {
+      "name": "Maize",
+      "description": "Maize is a versatile cereal crop that grows best in warm conditions with adequate moisture.",
+      "soil": "Well-drained loamy and fertile soils rich in organic matter.",
+      "temperature": "18–27°C",
+      "rainfall": "50–100 mm",
+      "benefits": "Maize is used as food, animal feed and for producing starch and other products."
+    },
+    "hindi": {
+      "name": "मक्का",
+      "description": "मक्का एक बहुउपयोगी अनाज की फसल है जो पर्याप्त नमी के साथ गर्म परिस्थितियों में अच्छी तरह बढ़ती है।",
+      "soil": "जैविक पदार्थों से भरपूर अच्छी जल निकासी वाली दोमट और उपजाऊ मिट्टी।",
+      "temperature": "18–27°C",
+      "rainfall": "50–100 मिमी",
+      "benefits": "मक्का भोजन, पशु चारा और स्टार्च सहित विभिन्न उत्पादों के लिए उपयोग किया जाता है।"
+    },
+    "kannada": {
+      "name": "ಮೆಕ್ಕೆಜೋಳ",
+      "description": "ಮೆಕ್ಕೆಜೋಳ ಬಹುಪಯೋಗಿ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಸಾಕಷ್ಟು ತೇವಾಂಶವಿರುವ ಬೆಚ್ಚಗಿನ ವಾತಾವರಣದಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಜೈವಿಕ ಪದಾರ್ಥಗಳಿಂದ ಸಮೃದ್ಧವಾದ ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮತ್ತು ಫಲವತ್ತಾದ ಮಣ್ಣು.",
+      "temperature": "18–27°C",
+      "rainfall": "50–100 ಮಿಮೀ",
+      "benefits": "ಮೆಕ್ಕೆಜೋಳವನ್ನು ಆಹಾರ, ಪಶು ಆಹಾರ ಮತ್ತು ಪಿಷ್ಟ ಸೇರಿದಂತೆ ವಿವಿಧ ಉತ್ಪನ್ನಗಳಿಗೆ ಬಳಸಲಾಗುತ್ತದೆ."
+    }
+  },
+
+  "chickpea": {
+    "english": {
+      "name": "Chickpea",
+      "description": "Chickpea is a pulse crop that prefers cool and relatively dry growing conditions.",
+      "soil": "Well-drained loamy or sandy loam soil.",
+      "temperature": "15–25°C",
+      "rainfall": "60–90 mm",
+      "benefits": "Chickpeas are rich in protein, fiber, vitamins and minerals."
+    },
+    "hindi": {
+      "name": "चना",
+      "description": "चना एक दलहनी फसल है जो ठंडी और अपेक्षाकृत शुष्क परिस्थितियों को पसंद करती है।",
+      "soil": "अच्छी जल निकासी वाली दोमट या बलुई दोमट मिट्टी।",
+      "temperature": "15–25°C",
+      "rainfall": "60–90 मिमी",
+      "benefits": "चना प्रोटीन, फाइबर, विटामिन और खनिजों से भरपूर होता है।"
+    },
+    "kannada": {
+      "name": "ಕಡಲೆ",
+      "description": "ಕಡಲೆ ತಂಪಾದ ಮತ್ತು ತುಸು ಒಣ ಹವಾಮಾನವನ್ನು ಇಷ್ಟಪಡುವ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಅಥವಾ ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "15–25°C",
+      "rainfall": "60–90 ಮಿಮೀ",
+      "benefits": "ಕಡಲೆ ಪ್ರೋಟೀನ್, ನಾರು, ಜೀವಸತ್ವಗಳು ಮತ್ತು ಖನಿಜಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "kidneybeans": {
+    "english": {
+      "name": "Kidney Beans",
+      "description": "Kidney beans are pulse crops that grow well in moderate temperatures and well-drained soils.",
+      "soil": "Well-drained fertile loamy soil.",
+      "temperature": "15–25°C",
+      "rainfall": "60–100 mm",
+      "benefits": "Kidney beans provide plant-based protein, fiber and essential minerals."
+    },
+    "hindi": {
+      "name": "राजमा",
+      "description": "राजमा एक दलहनी फसल है जो मध्यम तापमान और अच्छी जल निकासी वाली मिट्टी में अच्छी तरह उगती है।",
+      "soil": "अच्छी जल निकासी वाली उपजाऊ दोमट मिट्टी।",
+      "temperature": "15–25°C",
+      "rainfall": "60–100 मिमी",
+      "benefits": "राजमा वनस्पति प्रोटीन, फाइबर और आवश्यक खनिज प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ರಾಜ್ಮಾ",
+      "description": "ರಾಜ್ಮಾ ಮಧ್ಯಮ ತಾಪಮಾನ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣಿನಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಫಲವತ್ತಾದ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "15–25°C",
+      "rainfall": "60–100 ಮಿಮೀ",
+      "benefits": "ರಾಜ್ಮಾ ಸಸ್ಯಾಧಾರಿತ ಪ್ರೋಟೀನ್, ನಾರು ಮತ್ತು ಅಗತ್ಯ ಖನಿಜಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "pigeonpeas": {
+    "english": {
+      "name": "Pigeon Peas",
+      "description": "Pigeon pea is a drought-tolerant pulse crop suitable for warm tropical and subtropical regions.",
+      "soil": "Well-drained loamy and moderately fertile soil.",
+      "temperature": "20–30°C",
+      "rainfall": "60–100 mm",
+      "benefits": "Pigeon peas are rich in protein and help improve soil fertility through nitrogen fixation."
+    },
+    "hindi": {
+      "name": "अरहर",
+      "description": "अरहर एक सूखा सहन करने वाली दलहनी फसल है जो गर्म उष्णकटिबंधीय और उपोष्णकटिबंधीय क्षेत्रों के लिए उपयुक्त है।",
+      "soil": "अच्छी जल निकासी वाली दोमट और मध्यम उपजाऊ मिट्टी।",
+      "temperature": "20–30°C",
+      "rainfall": "60–100 मिमी",
+      "benefits": "अरहर प्रोटीन से भरपूर होती है और नाइट्रोजन स्थिरीकरण द्वारा मिट्टी की उर्वरता बढ़ाने में मदद करती है।"
+    },
+    "kannada": {
+      "name": "ತೊಗರಿ",
+      "description": "ತೊಗರಿ ಬರವನ್ನು ಸಹಿಸಿಕೊಳ್ಳುವ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ಉಷ್ಣವಲಯ ಪ್ರದೇಶಗಳಿಗೆ ಸೂಕ್ತವಾಗಿದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮತ್ತು ಮಧ್ಯಮ ಫಲವತ್ತಾದ ಮಣ್ಣು.",
+      "temperature": "20–30°C",
+      "rainfall": "60–100 ಮಿಮೀ",
+      "benefits": "ತೊಗರಿ ಪ್ರೋಟೀನ್‌ನಲ್ಲಿ ಸಮೃದ್ಧವಾಗಿದ್ದು, ಸಾರಜನಕ ಸ್ಥಿರೀಕರಣದ ಮೂಲಕ ಮಣ್ಣಿನ ಫಲವತ್ತತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+    }
+  },
+
+  "mothbeans": {
+    "english": {
+      "name": "Moth Beans",
+      "description": "Moth bean is a drought-resistant pulse crop that grows well in hot and dry regions.",
+      "soil": "Sandy and well-drained soils.",
+      "temperature": "24–35°C",
+      "rainfall": "30–50 mm",
+      "benefits": "Moth beans are nutritious and provide protein, fiber and minerals."
+    },
+    "hindi": {
+      "name": "मटकी",
+      "description": "मटकी एक सूखा प्रतिरोधी दलहनी फसल है जो गर्म और शुष्क क्षेत्रों में अच्छी तरह उगती है।",
+      "soil": "बलुई और अच्छी जल निकासी वाली मिट्टी।",
+      "temperature": "24–35°C",
+      "rainfall": "30–50 मिमी",
+      "benefits": "मटकी पौष्टिक होती है और प्रोटीन, फाइबर तथा खनिज प्रदान करती है।"
+    },
+    "kannada": {
+      "name": "ಮೋತ್ ಬೀನ್ಸ್",
+      "description": "ಮೋತ್ ಬೀನ್ಸ್ ಬರ ನಿರೋಧಕ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಬಿಸಿ ಮತ್ತು ಒಣ ಪ್ರದೇಶಗಳಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಮರಳು ಮಿಶ್ರಿತ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣು.",
+      "temperature": "24–35°C",
+      "rainfall": "30–50 ಮಿಮೀ",
+      "benefits": "ಮೋತ್ ಬೀನ್ಸ್ ಪೌಷ್ಟಿಕವಾಗಿದ್ದು, ಪ್ರೋಟೀನ್, ನಾರು ಮತ್ತು ಖನಿಜಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "mungbean": {
+    "english": {
+      "name": "Mung Bean",
+      "description": "Mung bean is a short-duration pulse crop that grows well in warm conditions.",
+      "soil": "Well-drained loamy soil with good organic content.",
+      "temperature": "25–35°C",
+      "rainfall": "50–75 mm",
+      "benefits": "Mung beans are rich in protein, fiber and antioxidants."
+    },
+    "hindi": {
+      "name": "मूंग",
+      "description": "मूंग एक कम अवधि वाली दलहनी फसल है जो गर्म परिस्थितियों में अच्छी तरह उगती है।",
+      "soil": "अच्छी जल निकासी और जैविक पदार्थ वाली दोमट मिट्टी।",
+      "temperature": "25–35°C",
+      "rainfall": "50–75 मिमी",
+      "benefits": "मूंग प्रोटीन, फाइबर और एंटीऑक्सीडेंट से भरपूर होती है।"
+    },
+    "kannada": {
+      "name": "ಹೆಸರು ಕಾಳು",
+      "description": "ಹೆಸರು ಕಾಳು ಕಡಿಮೆ ಅವಧಿಯ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಮತ್ತು ಜೈವಿಕ ಪದಾರ್ಥ ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "25–35°C",
+      "rainfall": "50–75 ಮಿಮೀ",
+      "benefits": "ಹೆಸರು ಕಾಳು ಪ್ರೋಟೀನ್, ನಾರು ಮತ್ತು ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "blackgram": {
+    "english": {
+      "name": "Black Gram",
+      "description": "Black gram is an important pulse crop that grows well in warm and moderately humid conditions.",
+      "soil": "Loamy, clay loam and well-drained soils.",
+      "temperature": "25–35°C",
+      "rainfall": "60–90 mm",
+      "benefits": "Black gram is rich in protein, iron, calcium and dietary fiber."
+    },
+    "hindi": {
+      "name": "उड़द",
+      "description": "उड़द एक महत्वपूर्ण दलहनी फसल है जो गर्म और मध्यम आर्द्र परिस्थितियों में अच्छी तरह उगती है।",
+      "soil": "दोमट, चिकनी दोमट और अच्छी जल निकासी वाली मिट्टी।",
+      "temperature": "25–35°C",
+      "rainfall": "60–90 मिमी",
+      "benefits": "उड़द प्रोटीन, आयरन, कैल्शियम और आहार फाइबर से भरपूर होता है।"
+    },
+    "kannada": {
+      "name": "ಉದ್ದು",
+      "description": "ಉದ್ದು ಪ್ರಮುಖ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ಮತ್ತು ಮಧ್ಯಮ ತೇವಾಂಶದ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಗೋಡು, ಜೇಡಿ ಮಿಶ್ರಿತ ಗೋಡು ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣು.",
+      "temperature": "25–35°C",
+      "rainfall": "60–90 ಮಿಮೀ",
+      "benefits": "ಉದ್ದು ಪ್ರೋಟೀನ್, ಕಬ್ಬಿಣ, ಕ್ಯಾಲ್ಸಿಯಂ ಮತ್ತು ಆಹಾರದ ನಾರಿನಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "lentil": {
+    "english": {
+      "name": "Lentil",
+      "description": "Lentil is a cool-season pulse crop that performs well in well-drained soils.",
+      "soil": "Well-drained loamy soils with moderate fertility.",
+      "temperature": "15–25°C",
+      "rainfall": "40–60 mm",
+      "benefits": "Lentils are an excellent source of plant protein, fiber and iron."
+    },
+    "hindi": {
+      "name": "मसूर",
+      "description": "मसूर ठंडे मौसम की दलहनी फसल है जो अच्छी जल निकासी वाली मिट्टी में अच्छी तरह उगती है।",
+      "soil": "मध्यम उर्वरता वाली अच्छी जल निकासी वाली दोमट मिट्टी।",
+      "temperature": "15–25°C",
+      "rainfall": "40–60 मिमी",
+      "benefits": "मसूर वनस्पति प्रोटीन, फाइबर और आयरन का अच्छा स्रोत है।"
+    },
+    "kannada": {
+      "name": "ಮಸೂರ ಬೇಳೆ",
+      "description": "ಮಸೂರವು ತಂಪಾದ ಹವಾಮಾನದ ದ್ವಿದಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದು, ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣಿನಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಮಧ್ಯಮ ಫಲವತ್ತತೆಯ ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "15–25°C",
+      "rainfall": "40–60 ಮಿಮೀ",
+      "benefits": "ಮಸೂರವು ಸಸ್ಯ ಪ್ರೋಟೀನ್, ನಾರು ಮತ್ತು ಕಬ್ಬಿಣದ ಉತ್ತಮ ಮೂಲವಾಗಿದೆ."
+    }
+  },
+
+  "pomegranate": {
+    "english": {
+      "name": "Pomegranate",
+      "description": "Pomegranate is a fruit crop that grows well in warm and relatively dry climates.",
+      "soil": "Well-drained loamy or sandy loam soil.",
+      "temperature": "25–35°C",
+      "rainfall": "50–100 mm",
+      "benefits": "Pomegranate fruits are rich in antioxidants, vitamins and beneficial plant compounds."
+    },
+    "hindi": {
+      "name": "अनार",
+      "description": "अनार एक फलदार फसल है जो गर्म और अपेक्षाकृत शुष्क जलवायु में अच्छी तरह उगती है।",
+      "soil": "अच्छी जल निकासी वाली दोमट या बलुई दोमट मिट्टी।",
+      "temperature": "25–35°C",
+      "rainfall": "50–100 मिमी",
+      "benefits": "अनार एंटीऑक्सीडेंट, विटामिन और लाभकारी पौधों के यौगिकों से भरपूर होता है।"
+    },
+    "kannada": {
+      "name": "ದಾಳಿಂಬೆ",
+      "description": "ದಾಳಿಂಬೆ ಬೆಚ್ಚಗಿನ ಮತ್ತು ತುಸು ಒಣ ಹವಾಮಾನದಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುವ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಅಥವಾ ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "25–35°C",
+      "rainfall": "50–100 ಮಿಮೀ",
+      "benefits": "ದಾಳಿಂಬೆ ಹಣ್ಣು ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳು ಮತ್ತು ಜೀವಸತ್ವಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "banana": {
+    "english": {
+      "name": "Banana",
+      "description": "Banana is a tropical fruit crop that requires warm temperatures, moisture and fertile soil.",
+      "soil": "Deep, fertile, well-drained loamy soil rich in organic matter.",
+      "temperature": "20–35°C",
+      "rainfall": "100–200 mm",
+      "benefits": "Bananas provide carbohydrates, potassium, vitamins and dietary fiber."
+    },
+    "hindi": {
+      "name": "केला",
+      "description": "केला एक उष्णकटिबंधीय फलदार फसल है जिसे गर्म तापमान, नमी और उपजाऊ मिट्टी की आवश्यकता होती है।",
+      "soil": "जैविक पदार्थों से भरपूर गहरी, उपजाऊ और अच्छी जल निकासी वाली दोमट मिट्टी।",
+      "temperature": "20–35°C",
+      "rainfall": "100–200 मिमी",
+      "benefits": "केला कार्बोहाइड्रेट, पोटैशियम, विटामिन और आहार फाइबर प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ಬಾಳೆಹಣ್ಣು",
+      "description": "ಬಾಳೆಹಣ್ಣು ಉಷ್ಣವಲಯದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ತಾಪಮಾನ, ತೇವಾಂಶ ಮತ್ತು ಫಲವತ್ತಾದ ಮಣ್ಣಿನ ಅಗತ್ಯವಿದೆ.",
+      "soil": "ಜೈವಿಕ ಪದಾರ್ಥಗಳಿಂದ ಸಮೃದ್ಧವಾದ ಆಳವಾದ, ಫಲವತ್ತಾದ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "20–35°C",
+      "rainfall": "100–200 ಮಿಮೀ",
+      "benefits": "ಬಾಳೆಹಣ್ಣು ಕಾರ್ಬೋಹೈಡ್ರೇಟ್, ಪೊಟ್ಯಾಸಿಯಮ್, ಜೀವಸತ್ವಗಳು ಮತ್ತು ಆಹಾರದ ನಾರನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "mango": {
+    "english": {
+      "name": "Mango",
+      "description": "Mango is a tropical fruit crop that grows best in warm climates with a distinct dry season.",
+      "soil": "Deep, well-drained loamy soil.",
+      "temperature": "24–30°C",
+      "rainfall": "100–250 mm",
+      "benefits": "Mango is rich in vitamins A and C and provides antioxidants."
+    },
+    "hindi": {
+      "name": "आम",
+      "description": "आम एक उष्णकटिबंधीय फलदार फसल है जो गर्म जलवायु और स्पष्ट शुष्क मौसम में अच्छी तरह उगती है।",
+      "soil": "गहरी और अच्छी जल निकासी वाली दोमट मिट्टी।",
+      "temperature": "24–30°C",
+      "rainfall": "100–250 मिमी",
+      "benefits": "आम विटामिन A और C तथा एंटीऑक्सीडेंट से भरपूर होता है।"
+    },
+    "kannada": {
+      "name": "ಮಾವು",
+      "description": "ಮಾವು ಉಷ್ಣವಲಯದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಸ್ಪಷ್ಟವಾದ ಒಣ ಹವಾಮಾನವಿರುವ ಬೆಚ್ಚಗಿನ ಪ್ರದೇಶಗಳಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಆಳವಾದ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "24–30°C",
+      "rainfall": "100–250 ಮಿಮೀ",
+      "benefits": "ಮಾವು ವಿಟಮಿನ್ A ಮತ್ತು C ಹಾಗೂ ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "grapes": {
+    "english": {
+      "name": "Grapes",
+      "description": "Grapes grow well in warm and dry climates with good sunlight and well-drained soil.",
+      "soil": "Deep, well-drained loamy or sandy loam soil.",
+      "temperature": "15–35°C",
+      "rainfall": "50–100 mm",
+      "benefits": "Grapes contain antioxidants, vitamins and natural sugars."
+    },
+    "hindi": {
+      "name": "अंगूर",
+      "description": "अंगूर गर्म और शुष्क जलवायु में पर्याप्त धूप तथा अच्छी जल निकासी वाली मिट्टी में अच्छी तरह उगते हैं।",
+      "soil": "गहरी और अच्छी जल निकासी वाली दोमट या बलुई दोमट मिट्टी।",
+      "temperature": "15–35°C",
+      "rainfall": "50–100 मिमी",
+      "benefits": "अंगूर में एंटीऑक्सीडेंट, विटामिन और प्राकृतिक शर्करा होती है।"
+    },
+    "kannada": {
+      "name": "ದ್ರಾಕ್ಷಿ",
+      "description": "ದ್ರಾಕ್ಷಿ ಉತ್ತಮ ಸೂರ್ಯನ ಬೆಳಕು ಮತ್ತು ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣಿನೊಂದಿಗೆ ಬೆಚ್ಚಗಿನ ಹಾಗೂ ಒಣ ಹವಾಮಾನದಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಆಳವಾದ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಅಥವಾ ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "15–35°C",
+      "rainfall": "50–100 ಮಿಮೀ",
+      "benefits": "ದ್ರಾಕ್ಷಿಯಲ್ಲಿ ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳು, ಜೀವಸತ್ವಗಳು ಮತ್ತು ನೈಸರ್ಗಿಕ ಸಕ್ಕರೆಗಳಿವೆ."
+    }
+  },
+
+  "watermelon": {
+    "english": {
+      "name": "Watermelon",
+      "description": "Watermelon is a warm-season fruit crop that requires high temperatures and adequate moisture.",
+      "soil": "Sandy loam soil with good drainage.",
+      "temperature": "22–30°C",
+      "rainfall": "40–60 mm",
+      "benefits": "Watermelon has high water content and provides vitamins A and C."
+    },
+    "hindi": {
+      "name": "तरबूज",
+      "description": "तरबूज गर्म मौसम की फलदार फसल है जिसे उच्च तापमान और पर्याप्त नमी की आवश्यकता होती है।",
+      "soil": "अच्छी जल निकासी वाली बलुई दोमट मिट्टी।",
+      "temperature": "22–30°C",
+      "rainfall": "40–60 मिमी",
+      "benefits": "तरबूज में पानी की मात्रा अधिक होती है और यह विटामिन A और C प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ಕಲ್ಲಂಗಡಿ",
+      "description": "ಕಲ್ಲಂಗಡಿ ಬೆಚ್ಚಗಿನ ಹವಾಮಾನದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಹೆಚ್ಚಿನ ತಾಪಮಾನ ಮತ್ತು ಸಾಕಷ್ಟು ತೇವಾಂಶದ ಅಗತ್ಯವಿದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "22–30°C",
+      "rainfall": "40–60 ಮಿಮೀ",
+      "benefits": "ಕಲ್ಲಂಗಡಿಯಲ್ಲಿ ನೀರಿನ ಅಂಶ ಹೆಚ್ಚಿದ್ದು, ವಿಟಮಿನ್ A ಮತ್ತು C ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "muskmelon": {
+    "english": {
+      "name": "Muskmelon",
+      "description": "Muskmelon is a warm-season fruit crop that grows well under sunny and relatively dry conditions.",
+      "soil": "Sandy loam and well-drained fertile soil.",
+      "temperature": "24–35°C",
+      "rainfall": "40–60 mm",
+      "benefits": "Muskmelon provides vitamins, minerals, water and antioxidants."
+    },
+    "hindi": {
+      "name": "खरबूजा",
+      "description": "खरबूजा गर्म मौसम की फलदार फसल है जो धूप वाली और अपेक्षाकृत शुष्क परिस्थितियों में अच्छी तरह उगती है।",
+      "soil": "बलुई दोमट और अच्छी जल निकासी वाली उपजाऊ मिट्टी।",
+      "temperature": "24–35°C",
+      "rainfall": "40–60 मिमी",
+      "benefits": "खरबूजा विटामिन, खनिज, पानी और एंटीऑक्सीडेंट प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ಖರ್ಬೂಜ",
+      "description": "ಖರ್ಬೂಜ ಬೆಚ್ಚಗಿನ ಹವಾಮಾನದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಉತ್ತಮ ಸೂರ್ಯನ ಬೆಳಕು ಮತ್ತು ತುಸು ಒಣ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಫಲವತ್ತಾದ ಮಣ್ಣು.",
+      "temperature": "24–35°C",
+      "rainfall": "40–60 ಮಿಮೀ",
+      "benefits": "ಖರ್ಬೂಜವು ಜೀವಸತ್ವಗಳು, ಖನಿಜಗಳು, ನೀರು ಮತ್ತು ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "apple": {
+    "english": {
+      "name": "Apple",
+      "description": "Apple is a temperate fruit crop that requires cool conditions and suitable winter chilling.",
+      "soil": "Deep, fertile and well-drained loamy soil.",
+      "temperature": "15–25°C",
+      "rainfall": "100–150 mm",
+      "benefits": "Apples provide dietary fiber, vitamins and antioxidants."
+    },
+    "hindi": {
+      "name": "सेब",
+      "description": "सेब समशीतोष्ण फलदार फसल है जिसे ठंडी परिस्थितियों और उपयुक्त शीतकालीन अवधि की आवश्यकता होती है।",
+      "soil": "गहरी, उपजाऊ और अच्छी जल निकासी वाली दोमट मिट्टी।",
+      "temperature": "15–25°C",
+      "rainfall": "100–150 मिमी",
+      "benefits": "सेब आहार फाइबर, विटामिन और एंटीऑक्सीडेंट प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ಸೇಬು",
+      "description": "ಸೇಬು ಸಮಶೀತೋಷ್ಣ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ತಂಪಾದ ವಾತಾವರಣ ಮತ್ತು ಸೂಕ್ತ ಚಳಿಗಾಲದ ಅವಧಿಯ ಅಗತ್ಯವಿದೆ.",
+      "soil": "ಆಳವಾದ, ಫಲವತ್ತಾದ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "15–25°C",
+      "rainfall": "100–150 ಮಿಮೀ",
+      "benefits": "ಸೇಬು ಆಹಾರದ ನಾರು, ಜೀವಸತ್ವಗಳು ಮತ್ತು ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "orange": {
+    "english": {
+      "name": "Orange",
+      "description": "Orange is a citrus fruit crop that grows well in warm subtropical conditions with adequate moisture.",
+      "soil": "Well-drained sandy loam or loamy soil.",
+      "temperature": "20–30°C",
+      "rainfall": "100–200 mm",
+      "benefits": "Oranges are rich in vitamin C, antioxidants and dietary fiber."
+    },
+    "hindi": {
+      "name": "संतरा",
+      "description": "संतरा एक खट्टे फल की फसल है जो पर्याप्त नमी वाली गर्म उपोष्णकटिबंधीय परिस्थितियों में अच्छी तरह उगती है।",
+      "soil": "अच्छी जल निकासी वाली बलुई दोमट या दोमट मिट्टी।",
+      "temperature": "20–30°C",
+      "rainfall": "100–200 मिमी",
+      "benefits": "संतरा विटामिन C, एंटीऑक्सीडेंट और आहार फाइबर से भरपूर होता है।"
+    },
+    "kannada": {
+      "name": "ಕಿತ್ತಳೆ",
+      "description": "ಕಿತ್ತಳೆ ಉಷ್ಣವಲಯದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಸಾಕಷ್ಟು ತೇವಾಂಶವಿರುವ ಬೆಚ್ಚಗಿನ ಉಪಉಷ್ಣವಲಯದ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು ಅಥವಾ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "20–30°C",
+      "rainfall": "100–200 ಮಿಮೀ",
+      "benefits": "ಕಿತ್ತಳೆ ವಿಟಮಿನ್ C, ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳು ಮತ್ತು ಆಹಾರದ ನಾರಿನಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ."
+    }
+  },
+
+  "papaya": {
+    "english": {
+      "name": "Papaya",
+      "description": "Papaya is a tropical fruit crop that grows rapidly in warm climates with adequate moisture.",
+      "soil": "Well-drained fertile loamy soil.",
+      "temperature": "21–33°C",
+      "rainfall": "100–200 mm",
+      "benefits": "Papaya provides vitamins A and C, antioxidants and digestive enzymes."
+    },
+    "hindi": {
+      "name": "पपीता",
+      "description": "पपीता एक उष्णकटिबंधीय फलदार फसल है जो पर्याप्त नमी वाली गर्म जलवायु में तेजी से बढ़ती है।",
+      "soil": "अच्छी जल निकासी वाली उपजाऊ दोमट मिट्टी।",
+      "temperature": "21–33°C",
+      "rainfall": "100–200 मिमी",
+      "benefits": "पपीता विटामिन A और C, एंटीऑक्सीडेंट तथा पाचन एंजाइम प्रदान करता है।"
+    },
+    "kannada": {
+      "name": "ಪಪ್ಪಾಯಿ",
+      "description": "ಪಪ್ಪಾಯಿ ಉಷ್ಣವಲಯದ ಹಣ್ಣಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಸಾಕಷ್ಟು ತೇವಾಂಶವಿರುವ ಬೆಚ್ಚಗಿನ ಹವಾಮಾನದಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಫಲವತ್ತಾದ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "21–33°C",
+      "rainfall": "100–200 ಮಿಮೀ",
+      "benefits": "ಪಪ್ಪಾಯಿ ವಿಟಮಿನ್ A ಮತ್ತು C, ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳು ಮತ್ತು ಜೀರ್ಣಕಾರಿ ಎನ್ಜೈಮ್‌ಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ."
+    }
+  },
+
+  "coconut": {
+    "english": {
+      "name": "Coconut",
+      "description": "Coconut is a tropical plantation crop that requires warm temperatures, humidity and adequate rainfall.",
+      "soil": "Sandy loam, coastal alluvial and well-drained soils.",
+      "temperature": "25–35°C",
+      "rainfall": "150–250 mm",
+      "benefits": "Coconut provides edible oil, water, fiber and several useful agricultural products."
+    },
+    "hindi": {
+      "name": "नारियल",
+      "description": "नारियल एक उष्णकटिबंधीय बागान फसल है जिसे गर्म तापमान, आर्द्रता और पर्याप्त वर्षा की आवश्यकता होती है।",
+      "soil": "बलुई दोमट, तटीय जलोढ़ और अच्छी जल निकासी वाली मिट्टी।",
+      "temperature": "25–35°C",
+      "rainfall": "150–250 मिमी",
+      "benefits": "नारियल से खाद्य तेल, पानी, फाइबर और कई उपयोगी कृषि उत्पाद प्राप्त होते हैं।"
+    },
+    "kannada": {
+      "name": "ತೆಂಗಿನಕಾಯಿ",
+      "description": "ತೆಂಗಿನಕಾಯಿ ಉಷ್ಣವಲಯದ ತೋಟಗಾರಿಕಾ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ತಾಪಮಾನ, ತೇವಾಂಶ ಮತ್ತು ಸಾಕಷ್ಟು ಮಳೆಯ ಅಗತ್ಯವಿದೆ.",
+      "soil": "ಮರಳು ಮಿಶ್ರಿತ ಗೋಡು, ಕರಾವಳಿ ಮೆಕ್ಕಲು ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಮಣ್ಣು.",
+      "temperature": "25–35°C",
+      "rainfall": "150–250 ಮಿಮೀ",
+      "benefits": "ತೆಂಗಿನಕಾಯಿಯಿಂದ ಆಹಾರ ಎಣ್ಣೆ, ನೀರು, ನಾರು ಮತ್ತು ವಿವಿಧ ಉಪಯುಕ್ತ ಉತ್ಪನ್ನಗಳನ್ನು ಪಡೆಯಬಹುದು."
+    }
+  },
+
+  "cotton": {
+    "english": {
+      "name": "Cotton",
+      "description": "Cotton is an important fiber crop that grows well in warm climates and moderately fertile soils.",
+      "soil": "Deep black soil, loamy soil and well-drained fertile soil.",
+      "temperature": "21–30°C",
+      "rainfall": "60–120 mm",
+      "benefits": "Cotton is the primary natural fiber used in the textile industry."
+    },
+    "hindi": {
+      "name": "कपास",
+      "description": "कपास एक महत्वपूर्ण रेशेदार फसल है जो गर्म जलवायु और मध्यम उपजाऊ मिट्टी में अच्छी तरह उगती है।",
+      "soil": "गहरी काली मिट्टी, दोमट और अच्छी जल निकासी वाली उपजाऊ मिट्टी।",
+      "temperature": "21–30°C",
+      "rainfall": "60–120 मिमी",
+      "benefits": "कपास कपड़ा उद्योग में उपयोग होने वाला प्रमुख प्राकृतिक रेशा है।"
+    },
+    "kannada": {
+      "name": "ಹತ್ತಿ",
+      "description": "ಹತ್ತಿ ಪ್ರಮುಖ ನಾರಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಬೆಚ್ಚಗಿನ ಹವಾಮಾನ ಮತ್ತು ಮಧ್ಯಮ ಫಲವತ್ತಾದ ಮಣ್ಣಿನಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಆಳವಾದ ಕಪ್ಪು ಮಣ್ಣು, ಗೋಡು ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಫಲವತ್ತಾದ ಮಣ್ಣು.",
+      "temperature": "21–30°C",
+      "rainfall": "60–120 ಮಿಮೀ",
+      "benefits": "ಹತ್ತಿ ಜವಳಿ ಉದ್ಯಮದಲ್ಲಿ ಬಳಸುವ ಪ್ರಮುಖ ನೈಸರ್ಗಿಕ ನಾರಾಗಿದೆ."
+    }
+  },
+
+  "jute": {
+    "english": {
+      "name": "Jute",
+      "description": "Jute is a natural fiber crop that grows well in warm, humid climates with sufficient rainfall.",
+      "soil": "Fertile alluvial loamy soil with good moisture retention.",
+      "temperature": "24–37°C",
+      "rainfall": "150–250 mm",
+      "benefits": "Jute is biodegradable and widely used for bags, ropes, mats and packaging."
+    },
+    "hindi": {
+      "name": "जूट",
+      "description": "जूट एक प्राकृतिक रेशेदार फसल है जो पर्याप्त वर्षा वाली गर्म और आर्द्र जलवायु में अच्छी तरह उगती है।",
+      "soil": "अच्छी नमी धारण क्षमता वाली उपजाऊ जलोढ़ दोमट मिट्टी।",
+      "temperature": "24–37°C",
+      "rainfall": "150–250 मिमी",
+      "benefits": "जूट जैव-अवक्रमणीय है और बैग, रस्सी, चटाई तथा पैकेजिंग में उपयोग होता है।"
+    },
+    "kannada": {
+      "name": "ಸೆಣಬು",
+      "description": "ಸೆಣಬು ನೈಸರ್ಗಿಕ ನಾರಿನ ಬೆಳೆಯಾಗಿದ್ದು, ಸಾಕಷ್ಟು ಮಳೆಯಿರುವ ಬೆಚ್ಚಗಿನ ಮತ್ತು ತೇವಾಂಶಯುಕ್ತ ಹವಾಮಾನದಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಉತ್ತಮ ತೇವಾಂಶ ಹಿಡಿದಿಡುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಫಲವತ್ತಾದ ಮೆಕ್ಕಲು ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "24–37°C",
+      "rainfall": "150–250 ಮಿಮೀ",
+      "benefits": "ಸೆಣಬು ಜೈವಿಕವಾಗಿ ಕೊಳೆಯುವ ನಾರಾಗಿದ್ದು, ಚೀಲಗಳು, ಹಗ್ಗಗಳು, ಚಾಪೆಗಳು ಮತ್ತು ಪ್ಯಾಕೇಜಿಂಗ್‌ನಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ."
+    }
+  },
+
+  "coffee": {
+    "english": {
+      "name": "Coffee",
+      "description": "Coffee is a plantation crop that grows well in warm, humid environments with shade and adequate rainfall.",
+      "soil": "Deep, fertile, well-drained loamy soil rich in organic matter.",
+      "temperature": "18–28°C",
+      "rainfall": "150–250 mm",
+      "benefits": "Coffee is an important beverage crop and a major commercial plantation product."
+    },
+    "hindi": {
+      "name": "कॉफी",
+      "description": "कॉफी एक बागान फसल है जो छायादार, गर्म और आर्द्र वातावरण तथा पर्याप्त वर्षा में अच्छी तरह उगती है।",
+      "soil": "जैविक पदार्थों से भरपूर गहरी, उपजाऊ और अच्छी जल निकासी वाली दोमट मिट्टी।",
+      "temperature": "18–28°C",
+      "rainfall": "150–250 मिमी",
+      "benefits": "कॉफी एक महत्वपूर्ण पेय फसल और प्रमुख व्यावसायिक बागान उत्पाद है।"
+    },
+    "kannada": {
+      "name": "ಕಾಫಿ",
+      "description": "ಕಾಫಿ ತೋಟದ ಬೆಳೆಯಾಗಿದ್ದು, ನೆರಳು, ಬೆಚ್ಚಗಿನ ಮತ್ತು ತೇವಾಂಶಯುಕ್ತ ವಾತಾವರಣ ಹಾಗೂ ಸಾಕಷ್ಟು ಮಳೆಯಿರುವ ಪ್ರದೇಶಗಳಲ್ಲಿ ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ.",
+      "soil": "ಜೈವಿಕ ಪದಾರ್ಥಗಳಿಂದ ಸಮೃದ್ಧವಾದ ಆಳವಾದ, ಫಲವತ್ತಾದ ಮತ್ತು ಉತ್ತಮ ನೀರು ಹರಿವು ಹೊಂದಿರುವ ಗೋಡು ಮಣ್ಣು.",
+      "temperature": "18–28°C",
+      "rainfall": "150–250 ಮಿಮೀ",
+      "benefits": "ಕಾಫಿ ಪ್ರಮುಖ ಪಾನೀಯ ಬೆಳೆಯಾಗಿದ್ದು, ಪ್ರಮುಖ ವಾಣಿಜ್ಯ ತೋಟದ ಉತ್ಪನ್ನವಾಗಿದೆ."
+    }
+  }
+}
