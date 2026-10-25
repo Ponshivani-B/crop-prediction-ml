@@ -96,7 +96,7 @@
                     <div class="input-group">
 
                         <label for="nitrogen" data-text="nitrogenLabel">
-                            Nitrogen (N)
+                            Nitrogen (N) 
                         </label>
 
                         <input
@@ -104,7 +104,7 @@
                             id="nitrogen"
                             name="nitrogen"
                             step="any"
-                            placeholder="Enter nitrogen value"
+                            placeholder="Enter nitrogen value "
                             data-placeholder="nitrogenPlaceholder"
                             required
                         >
@@ -123,7 +123,7 @@
                             id="phosphorus"
                             name="phosphorus"
                             step="any"
-                            placeholder="Enter phosphorus value"
+                            placeholder="Enter phosphorus value "
                             data-placeholder="phosphorusPlaceholder"
                             required
                         >
@@ -147,7 +147,7 @@
                             id="potassium"
                             name="potassium"
                             step="any"
-                            placeholder="Enter potassium value"
+                            placeholder="Enter potassium value "
                             data-placeholder="potassiumPlaceholder"
                             required
                         >
@@ -309,7 +309,7 @@
             const value =
                 Number(input.value);
 
-            if (input.value.trim() === "" || value <= 0) {
+            if (input.value.trim() === "" || value < 0) {
 
                 alert(
                     field.name +
